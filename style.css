@@ -1,0 +1,572 @@
+*{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  body{
+      margin: 0%;
+      background-color:#f0d8a8;
+  }
+  .portfoliomain{
+      max-width:1400px;
+      margin:0px auto;
+  }
+  nav{
+      width: 100%;
+      height: 70px;
+      background-color:orange;
+      display: flex;
+      align-items: center;
+  }
+  .navimg{
+      width: 50px;
+      border-radius: 50%;
+      margin-left: 20px;
+      border: 3px solid white;
+  }
+  .navheading1{
+      margin-left: 20px;
+      font-size: 30px;
+      color:white;
+  }
+  .navcontent{
+      margin-left: 60%;
+  }
+  nav > .navcontent > a > img{
+      margin-left:7px;
+      filter: invert(100%) sepia(0%) saturate(7486%) hue-rotate(154deg) brightness(106%) contrast(100%);
+  }
+  .card1main{
+      width: 100%;
+      height: 600px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+  }
+  .card1child1{
+      width: 400px;
+      height: 400px;
+  }
+  .card1child2{
+      width: 400px;
+      height: 400px;
+      margin-top: 170px;
+  }
+  .card1child1 > img {
+      width: 400px;
+      border-radius: 50%;
+      border: 10px solid white;
+      box-shadow: 0px 0px 20px 10px orange;
+  }
+  .card1span2{
+      color: orange;
+  }
+  .card1heading1{
+      color: orange;
+  }
+  .card1button1{
+      color: white;
+      background-color: orange;
+      width: 120px;
+      height: 40px;
+      border: none;
+      outline: 3px solid white;
+      border-radius: 20px;
+      box-shadow: 0px 0px 10px black;
+      cursor: pointer;
+  }
+  .card1button2{
+      width: 120px;
+      height: 40px;
+      border-radius: 20px;
+      border: none;
+      color: orange;
+      outline: 3px solid orange;
+      margin-left: 20px;
+      cursor: pointer;
+      box-shadow: 0px 0px 5px black;
+  }
+  .card1button2:hover{
+      background-color: orange;
+      color: white;
+      outline: 3px solid white;
+      box-shadow: 0px 0px 10px black;
+  }
+  
+  .skillsheading1{
+     font-size: 50px;
+     color: orange;
+  }
+  .skillsheading1:hover{
+      color: black;
+  }
+  .skillsmain{
+      width: 1200px;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin: 0% auto;
+  }
+  .skillschild{
+      width: 350px;
+      height: 430px;
+      background-color: orange;
+      margin-top: 50px;
+      border-radius: 10px;
+  }
+  .skillschild:hover{
+      box-shadow: 0px 0px 10px black;
+  }
+  .skillschild > img{
+      width: 300px;
+      height: 180px;
+      margin-top: 25px;
+      margin-left: 15px;
+      border: 10px solid white;
+  }
+  .skillscontent{
+      color: white;
+  }
+  .skillscontent:hover{
+      color: black;
+  }
+  .aboutmeheading{
+      margin-top: 100px;
+      font-size: 50px;
+      color: orange;
+  }
+  .aboutmeheading:hover{
+      color: black;
+  }
+  .aboutmemain{
+      width: 1200px;
+      margin: 0% auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+  }
+  .aboutmechild{
+      width: 500px;
+  }
+  .aboutmechild>img{
+      width: 400px;
+      border-radius: 20px;
+      box-shadow: 0px 0px 15px black;
+  }
+  .contactmemain{
+      width:100%;
+      height:900px;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      margin-top:100px;
+  }
+  .contactmeheading{
+      font-size:50px;
+      color:white;
+      border-bottom:2px solid white;
+  }
+  .contactmeheading:hover{
+      color:black;
+  }
+  .contactmemain2{
+      width:500px;
+      height:500px;
+      background-color:orange;
+      border-top-left-radius:50px;
+      border-bottom-left-radius:50px;
+  }
+  .contactmemain3{
+      width:500px;
+      height:500px;
+      background-color:orange;
+      border-top-right-radius:50px;
+      border-bottom-right-radius:50px;
+  }
+  .contactmeinput1{
+      width:400px;
+      height:40px;
+      margin-left:50px;
+      margin-top:20px;
+  }
+  .contactmeinput2{
+      width:400px;
+      height:150px;
+      margin-left:50px;
+      margin-top:20px;
+  }
+  .contactmeinput3{
+      width:300px;
+      height:60px;
+      margin-left:100px;
+      margin-top:30px;
+      background-color:orange;
+      border:4px solid white;
+      box-shadow:0px 0px 10px white;
+      border-radius:40px;
+      cursor:pointer;
+      color:white;
+      font-size:30px;
+  }
+  .contactmeinput3:hover{
+      box-shadow:0px 0px 20px black;
+  }
+  .contactmechild1{
+      width:300px;
+      height:250px;
+      border-bottom:5px solid white;
+  }
+  .contactmechild2{
+      margin-top:40px;
+  }
+  .contactmeimage1{
+      width:200px;
+      border-radius:20%;
+      border:5px solid white;
+      box-shadow:0px 0px 10px white;
+      margin-bottom: 0px;
+      height: 200px;
+  }
+  .contactmeimage2{
+      width:40px;
+      margin-left:20px;
+      border-radius:50%;
+      box-shadow:0px 0px 10px white;
+  }
+  .contactmeimage1:hover{
+      box-shadow:0px 0px 15px black;
+  }
+  .contactmeimage2:hover{
+      box-shadow:0px 0px 10px black;
+  }
+  .mapmain{
+      max-width:100%;
+      height:600px;
+  }
+  .mapheading{
+      font-size:50px;
+      color:orange;
+  }
+  .mapheading:hover{
+      color:black;
+  }
+  .footermain{
+      width:100%;
+      height:150px;
+      background-color:orange;
+  }
+  .footericons{
+      margin-top:45px;
+  }
+  
+  
+  
+  
+  
+  
+  @media screen and (max-width:1200px){
+          .navcontent{
+              margin-left: 50%;
+          }
+          .skillsmain{
+              width: 992px;
+          }
+          .aboutmemain{
+              width: 992px;
+          }
+          .aboutmechild{
+              width: 400px;
+          }
+          .aboutmechild>img{
+              width: 350px;
+              border-radius: 20px;
+          }
+  
+  
+          
+          .contactmemain2{
+              width:450px;
+              height:525px;
+          }
+          .contactmemain3{
+              width:450px;
+              height:525px;
+          }
+          .contactmeinput1{
+              width:350px;
+              height:35px;
+          }
+          .contactmeinput2{
+              width:350px;
+              height:160px;
+          }
+          .contactmeinput3{
+              width:280px;
+              height:55px;
+              margin-left:85px;
+          }
+  }
+  @media screen and (max-width:992px){
+          .navcontent{
+              margin-left: 30%;
+          }
+          .card1child1{
+              width: 300px;
+              height: 400px;
+          }
+          .card1child2{
+              width: 300px;
+              height: 400px;
+              margin-top: 170px;
+          }
+          .card1child1 > img {
+              width: 300px;
+              margin-top: 50px;
+              box-shadow: 0px 0px 20px 12px orange;
+          }
+          .skillsmain{
+              width: 768px;
+          }
+          .aboutmemain{
+              width: 768px;
+          }
+          .aboutmechild{
+              width: 350px;
+          }
+          .aboutmechild>img{
+              width: 300px;
+              border-radius: 20px;
+          }
+  
+          
+          
+          
+          .contactmemain2{
+              width:350px;
+              height:520px;
+          }
+          .contactmemain3{
+              width:350px;
+              height:520px;
+          }
+          .contactmeinput1{
+              width:250px;
+              height:30px;
+          }
+          .contactmeinput2{
+              width:250px;
+              height:180px;
+          }
+          .contactmeinput3{
+              width:220px;
+              height:50px;
+              margin-left:65px;
+          }
+  }
+  @media screen and (max-width:768px){
+          .navcontent{
+              margin-left: 25%;
+          }
+          .navimg{
+              width: 40px;
+          }
+          .navheading1{
+              font-size: 25px;
+          }
+          .card1main{
+              height: 700px;
+              flex-direction:column;
+          }
+          .card1child1{
+              width: 270px;
+              height: 250px;
+          }
+          .card1child2{
+              width: 350px;
+              height: 250px;
+              text-align:center;
+          }
+          .card1child1 > img {
+              width: 250px;
+              margin-top: 100px;
+          }
+          .skillsheading1{
+              margin-top:70px;
+          }
+          .skillsmain{
+              width: 576px;
+          }
+          .aboutmemain{
+              width: 500px;
+              flex-direction:column;
+          }
+          .aboutmechild{
+              width: 400px;
+              text-align:center;
+          }
+          .aboutmechild>img{
+              width: 250px;
+              border-radius: 50%;
+              margin-left:20px;
+          }
+  
+          
+          
+          
+          
+          .contactmemain2{
+              width:260px;
+              height:520px;
+          }
+          .contactmemain3{
+              width:260px;
+              height:520px;
+          }
+          .contactmeinput1{
+              width:170px;
+              height:20px;
+          }
+          .contactmeinput2{
+              width:170px;
+              height:200px;
+          }
+          .contactmeinput3{
+              width:200px;
+              height:50px;
+              margin-left:35px;
+          }		
+  }
+  @media screen and (max-width:576px){
+          .navcontent{
+              margin-left: 18%;
+          }
+          .navimg{
+              width: 30px;
+              margin-left: 10px;
+          }
+          .navheading1{
+              font-size: 20px;
+              margin-left: 10px;
+          }
+          nav > .navcontent > a > img{
+              width:15px;
+          }
+          .skillsmain{
+              width: 400px;
+          }
+          .aboutmemain{
+              width: 380px;
+          }
+          .aboutmechild{
+              width: 350px;
+              text-align:center;
+          }
+          .aboutmechild>img{
+              width: 250px;
+              margin-left:0px;
+          }
+  
+          
+          .contactmemain2{
+              width:180px;
+              height:400px;
+          }
+          .contactmemain3{
+              width:180px;
+              height:400px;
+          }
+          .contactmeheading{
+              font-size:30px;
+          }
+          #fortop{
+              margin-top:30px;
+          }
+          .contactmeinput1{
+              width:120px;
+              height:18px;
+              margin-left:25px;
+              margin-top:15px;
+          }
+          .contactmeinput2{
+              width:120px;
+              height:130px;
+              margin-top:15px;
+              margin-left:25px;
+          }
+          .contactmeinput3{
+              width:140px;
+              height:40px;
+              margin-left:20px;
+              font-size:20px;
+          }
+          .contactmeinput3:hover{
+              box-shadow:0px 0px 10px black;
+          }
+          .contactmechild1{
+              width:130px;
+              height: 70px;
+              margin-top:20px;
+              border-bottom:5px solid white;
+          }
+          .contactmechild2{
+              margin-top:40px;
+          }
+          .contactmeimage1{
+              width:130px;
+              height: 100px;
+              border-radius:50%;
+              margin-top:20px;
+              box-shadow:0px 0px 10px white;
+          }
+          .contactmeimage2{
+              width:35px;
+              margin-left:10px;
+              box-shadow:0px 0px 7px white;
+          }
+          .contactmeimage1:hover{
+              box-shadow:0px 0px 10px black;
+          }
+          .contactmeimage2:hover{
+              box-shadow:0px 0px 7px black;
+          }
+  }
+  @media screen and (max-width:400px){
+          .navcontent{
+              margin-left: 19%;
+          }
+          .navimg{
+              width: 25px;
+              margin-left: 10px;
+          }
+          .navheading1{
+              font-size: 16px;
+              margin-left: 10px;
+          }
+          nav > .navcontent > a > img{
+              width:15px;
+          }
+          .skillsmain{
+              width: 350px;
+          }
+          .aboutmemain{
+              width: 300px;
+          }
+          .aboutmechild{
+              width: 280px;
+              text-align:center;
+          }
+          .aboutmechild>img{
+              width: 230px;
+              margin-left:0px;
+          }
+          
+          .contactmemain2{
+              width:150px;
+              height:400px;
+          }
+          .contactmemain3{
+              width:170px;
+              height:400px;
+          }
+  }
+  
